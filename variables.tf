@@ -5,3 +5,7 @@ variable "region" {
 variable "subnets" {
   type = any
 }
+
+variable "inbound_rule" {
+  type = any
+}
